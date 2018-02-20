@@ -1,12 +1,11 @@
-
-
-if(n>=1&&n<=100000):
-print("positive")
-elif(n==0):
-printf("zero")
+n=input()
+if(n==0):
+  print("zero")
 elif(n<0): 
-print("negative")
+  print("negative")
+elif(n<=100000):
+  print("positive")
 elif(n>=100000):
-print("neg test case integer")
-
-
+  print("neg test case integer")
+	
+	 
