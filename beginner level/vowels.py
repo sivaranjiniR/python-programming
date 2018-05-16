@@ -1,7 +1,5 @@
-s=raw_input()
-if s in ("a" or "e" or "i" or "o" or "u"):
+ s=raw_input()
+ if s in ("a" or "e" or "i" or "o" or "u"):
   print 'vowels'
-else:
-  print 'constant'
- 
-
+ else:
+  print 'consonents'
